@@ -14,6 +14,7 @@ This gets us to a functional AKS cluster (not private)
 ### Real way to do it with external load balancer
 https://blog.kubernauts.io/aks-deployment-automation-with-terraform-and-multi-aks-cluster-management-with-rancher-6da9865ad52b
 But this is simple way
+
 1. Cert manager (conduent/day_2/aks-rancher/aks_cert_manager.md)
 2. Nginx (conduent/day_2/aks-rancher/aks_nginx_ingress.md)
 3. rancher (conduent/day_2/aks-rancher/aks_rancher_setup.md)
@@ -22,19 +23,23 @@ But this is simple way
 
 ##	Working with Rancher
 2.2.1	WebUi Features
-      -Projects
-      -Resources
-      -Monitoring
-      -Logging
-      -Security
-      -Api
+      - Projects
+      - Resources
+      - Monitoring
+      - Logging
+      - Security
+      - Api
+      
 2.2.2	CLI
     - Example - List Projects
     https://rancher.com/docs/rancher/v2.x/en/cli/
+    
 2.2.3	API
     https://rancher.com/docs/rancher/v2.x/en/api/
+    
 2.2.4	Terraform
     https://www.terraform.io/docs/providers/rancher2/r/cluster.html
+    
 
 ### 2.3	Deploying Clusters with Rancher
   2.3.1	AKS Example
@@ -42,10 +47,13 @@ But this is simple way
   2.3.2	LAB: Add AKS Cluster via UI
 
   2.3.3	Importing Clusters
+  
         Add separate cluster
+        
   2.3.4	LAB: Import RKE Cluster
 
   2.4	RBAC /w Azure AD (rancher_configure_ad.md)
+  
   2.4.2	Using Group Permissions
 
 ## LAB: Configure AD
