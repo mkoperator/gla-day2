@@ -46,17 +46,15 @@ But this is simple way
 
   2.3.2	LAB: Add AKS Cluster via UI
 
-  2.3.3	Importing Clusters
-  
-        Add separate cluster
+  2.3.3	Importing Clusters -  Add separate cluster
         
-  2.3.4	LAB: Import RKE Cluster
+  2.3.4	LAB: Import Cluster To Rancher
 
-  2.4	RBAC /w Azure AD (rancher_configure_ad.md)
+  2.4	      RBAC /w Azure AD (rancher_configure_ad.md)
   
   2.4.2	Using Group Permissions
 
-## LAB: Configure AD
+## LAB: Configure AD 
 ### Create some groups and add yourself
 1. Setup Service Account
 2. Give Service Account permissions
